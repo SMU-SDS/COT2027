@@ -1,0 +1,22 @@
+title: "CoTS 2027"
+subtitle: "47th Conference of Texas Statisticians"
+description: "The Conference of Texas Statisticians (CoTS) 2027, hosted by the Department of Statistics and Data Science at Southern Methodist University."
+url: "https://smu-sds.github.io"
+baseurl: "/cots2027"   # repo name; use "" if the repo is named smu-sds.github.io
+
+host: "Southern Methodist University"
+venue: "Dallas, Texas"
+dates: "TBD"
+email: "cots2027@smu.edu"
+
+# Optional: a photo used behind the hero and page headers.
+# Drop a wide image into assets/img/ and uncomment the line below.
+# hero_image: "/assets/img/campus.jpg"
+
+markdown: kramdown
+permalink: pretty
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor

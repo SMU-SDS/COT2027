@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
+<meta name="description" content="{{ page.description | default: site.description }}">
+<link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;600;700&family=Source+Serif+4:wght@600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="wrap topbar-inner">
+    <a class="brand" href="{{ '/' | relative_url }}">
+      <span class="brand-main">CoTS 2027</span>
+      <span class="brand-sub">Conference of Texas Statisticians</span>
+    </a>
+    <input type="checkbox" id="nav-toggle" class="nav-toggle">
+    <label for="nav-toggle" class="nav-toggle-label"><span></span></label>
+    <nav class="nav">
+      <ul>
+        {% for item in site.data.navigation %}
+        <li><a href="{{ item.url | relative_url }}"{% if page.url == item.url %} class="active"{% endif %}>{{ item.title }}</a></li>
+        {% endfor %}
+      </ul>
+    </nav>
+  </div>
+</header>
+
+{% if page.hero %}
+{% assign bg = page.background | default: site.hero_image %}
+<section class="hero"{% if bg %} style="background-image:linear-gradient(180deg,rgba(23,34,74,.80) 0%,rgba(34,51,109,.55) 55%,rgba(34,51,109,.88) 100%),url('{{ bg | relative_url }}')"{% endif %}>
+  <div class="wrap">
+    <p class="kicker">{{ site.subtitle }}</p>
+    <h1>{{ page.heading | default: page.title }}</h1>
+    <p class="hero-meta">{{ site.dates }} &middot; {{ site.host }} &middot; {{ site.venue }}</p>
+    {% if page.cta_url %}<p><a class="button" href="{{ page.cta_url | relative_url }}">{{ page.cta_text }}</a></p>{% endif %}
+  </div>
+</section>
+{% else %}
+{% assign bg = page.background | default: site.hero_image %}
+<section class="pagehead"{% if bg %} style="background-image:linear-gradient(180deg,rgba(23,34,74,.86) 0%,rgba(34,51,109,.78) 100%),url('{{ bg | relative_url }}')"{% endif %}>
+  <div class="wrap">
+    <h1>{{ page.title }}</h1>
+    {% if page.lead %}<p class="lead">{{ page.lead }}</p>{% endif %}
+  </div>
+</section>
+{% endif %}
+
+<main class="wrap content">
+  {{ content }}
+</main>
+
+<div class="footer-band" aria-hidden="true"></div>
+<footer class="footer">
+  <div class="wrap">
+    <p><strong>{{ site.subtitle }}</strong><br>
+    Hosted by the Department of Statistics and Data Science, {{ site.host }}</p>
+    <p>Questions? Email <a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+  </div>
+</footer>
+
+</body>
+</html>
