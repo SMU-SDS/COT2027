@@ -43,7 +43,7 @@ p,ul,ol{margin:0 0 1rem}
   position:relative;color:#fff;padding:5rem 0 4.5rem;text-align:center;
   background:
     linear-gradient(180deg,rgba(23,34,74,.82) 0%,rgba(34,51,109,.62) 55%,rgba(34,51,109,.88) 100%),
-    url("../img/campus.svg") center bottom/cover no-repeat,
+    url("../img/campus.svg") center 25%/cover no-repeat,
     var(--smu-blue-dark);
 }
 .hero h1,.hero .kicker,.hero .hero-meta{text-shadow:0 1px 10px rgba(12,20,50,.45)}
@@ -56,7 +56,7 @@ p,ul,ol{margin:0 0 1rem}
   color:#fff;border-bottom:4px solid var(--smu-red);padding:2.6rem 0 2.1rem;
   background:
     linear-gradient(180deg,rgba(23,34,74,.86) 0%,rgba(34,51,109,.78) 100%),
-    url("../img/campus.svg") center 35%/cover no-repeat,
+    url("../img/campus.svg") center 30%/cover no-repeat,
     var(--smu-blue-dark);
 }
 .pagehead h1{margin-bottom:.2rem;text-shadow:0 1px 8px rgba(12,20,50,.4)}
@@ -82,7 +82,7 @@ td:first-child{white-space:nowrap;color:var(--muted)}
 
 /* Footer */
 .footer{background:var(--bg-soft);border-top:1px solid var(--line);margin-top:3rem;padding:2rem 0;color:var(--muted);font-size:.92rem}
-.footer-band{height:120px;background:url("../img/campus.svg") center bottom/cover no-repeat;opacity:.9}
+.footer-band{height:130px;background:url("../img/campus.svg") center 40%/cover no-repeat;opacity:.9}
 
 @media (max-width:760px){
   .topbar-inner{padding-top:.6rem;padding-bottom:.6rem}

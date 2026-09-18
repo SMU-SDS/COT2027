@@ -36,7 +36,7 @@
   <div class="wrap">
     <p class="kicker">{{ site.subtitle }}</p>
     <h1>{{ page.heading | default: page.title }}</h1>
-    <p class="hero-meta">{{ site.dates }} &middot; {{ site.host }} &middot; {{ site.venue }}</p>
+    <p class="hero-meta">{{ site.dates }} &middot; {{ site.institution }} &middot; {{ site.venue }}</p>
     {% if page.cta_url %}<p><a class="button" href="{{ page.cta_url | relative_url }}">{{ page.cta_text }}</a></p>{% endif %}
   </div>
 </section>
@@ -58,7 +58,7 @@
 <footer class="footer">
   <div class="wrap">
     <p><strong>{{ site.subtitle }}</strong><br>
-    Hosted by the Department of Statistics and Data Science, {{ site.host }}</p>
+    Hosted by the Department of Statistics and Data Science, {{ site.institution }}</p>
     <p>Questions? Email <a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
   </div>
 </footer>

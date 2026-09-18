@@ -69,8 +69,10 @@ bundle install
 bundle exec jekyll serve --livereload --baseurl ""
 ```
 
-Open <http://localhost:4000>. `bundle install` is needed only the first time and
-after the Gemfile changes, so later sessions are just the serve line.
+Open <http://localhost:4000>, which is the same address as
+<http://127.0.0.1:4000>. Stop the server with Ctrl+C. `bundle install` is needed
+only the first time and after the Gemfile changes, so later sessions are just the
+serve line.
 
 Notes:
 
@@ -82,6 +84,11 @@ Notes:
 - Changes to `_config.yml` need a restart with Ctrl+C and the same serve command.
 - Jekyll uses port 4000 and Hugo uses 1313, so a Hugo site can serve at the same
   time. Add `--port 4001` only if another Jekyll site is already running.
+- "no acceptor (port is in use)" comes from LiveReload on port 35729, usually an
+  earlier server still running. Drop `--livereload`, or add
+  `--livereload-port 35730`.
+- Do not name a setting `host` in `_config.yml`. Jekyll reserves it for the
+  server address, and the site name goes in `institution` instead.
 
 ## Publishing
 

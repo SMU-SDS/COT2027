@@ -4,7 +4,7 @@ description: "The Conference of Texas Statisticians (CoTS) 2027, hosted by the D
 url: "https://smu-sds.github.io"
 baseurl: "/cots2027"   # repo name; use "" if the repo is named smu-sds.github.io
 
-host: "Southern Methodist University"
+institution: "Southern Methodist University"
 venue: "Dallas, Texas"
 dates: "TBD"
 email: "cots2027@smu.edu"
