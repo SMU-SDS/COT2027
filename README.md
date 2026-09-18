@@ -48,14 +48,40 @@ Commons license and credit it in the footer.
 
 ## Previewing locally
 
-Optional. With Ruby installed:
+Jekyll runs on Ruby. On Ubuntu, install it once:
+
+```
+sudo apt update
+sudo apt install ruby-full build-essential zlib1g-dev
+echo 'export GEM_HOME="$HOME/gems"' >> ~/.bashrc
+echo 'export PATH="$HOME/gems/bin:$PATH"' >> ~/.bashrc
+source ~/.bashrc
+gem install jekyll bundler
+```
+
+On macOS, `brew install ruby` replaces the two `apt` lines, and the rest is the
+same.
+
+Then, from this folder:
 
 ```
 bundle install
-bundle exec jekyll serve
+bundle exec jekyll serve --livereload --baseurl ""
 ```
 
-Then open <http://localhost:4000>.
+Open <http://localhost:4000>. `bundle install` is needed only the first time and
+after the Gemfile changes, so later sessions are just the serve line.
+
+Notes:
+
+- `--baseurl ""` overrides the deployed `/cots2027` path so the local site sits
+  at the root. Without it, the preview lives at
+  <http://localhost:4000/cots2027/>.
+- Markdown pages and the stylesheet rebuild on save, and `--livereload`
+  refreshes the browser.
+- Changes to `_config.yml` need a restart with Ctrl+C and the same serve command.
+- Jekyll uses port 4000 and Hugo uses 1313, so a Hugo site can serve at the same
+  time. Add `--port 4001` only if another Jekyll site is already running.
 
 ## Publishing
 
