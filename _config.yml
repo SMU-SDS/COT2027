@@ -9,8 +9,9 @@ venue: "Dallas, Texas"
 dates: "April 2–3, 2027"
 email: "schiou@smu.edu"
 
-# Photo used behind the hero and page headers.
-hero_image: "/assets/img/campus.jpg"
+# Optional override for the header photo on every page.
+# Individual pages can set "background:" in their front matter instead.
+# hero_image: "/assets/img/campus.jpg"
 
 markdown: kramdown
 permalink: pretty

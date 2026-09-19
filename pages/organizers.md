@@ -2,6 +2,7 @@
 layout: default
 title: "Organizers"
 lead: "The COTS 2027 organizing committee."
+background: "/assets/img/quad.jpg"
 permalink: /organizers/
 ---
 

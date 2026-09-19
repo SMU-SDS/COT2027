@@ -2,6 +2,7 @@
 layout: default
 title: "Registration"
 lead: "Registration, fees, and poster submission."
+background: "/assets/img/fountain.jpg"
 permalink: /registration/
 ---
 

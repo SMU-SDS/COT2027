@@ -2,6 +2,7 @@
 layout: default
 title: "Sponsors"
 lead: "COTS 2027 is supported by the organizations below."
+background: "/assets/img/mustangs.jpg"
 permalink: /sponsors/
 ---
 

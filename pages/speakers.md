@@ -2,6 +2,7 @@
 layout: default
 title: "Speakers"
 lead: "Invited speakers for COTS 2027."
+background: "/assets/img/dallas-hall-sunset.jpg"
 permalink: /speakers/
 ---
 
