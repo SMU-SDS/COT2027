@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Speakers"
-lead: "Invited speakers for CoTS 2027."
+lead: "Invited speakers for COTS 2027."
 permalink: /speakers/
 ---
 
@@ -19,7 +19,7 @@ Talk title, followed by a short abstract or biography.
 
 ## Interested in speaking?
 
-Talks at CoTS 2027 are by invitation. If you would like to be considered, email
+Talks at COTS 2027 are by invitation. If you would like to be considered, email
 the organizers at [{{ site.email }}](mailto:{{ site.email }}) with your name,
 affiliation, and a proposed topic.
 

@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Sponsors"
-lead: "CoTS 2027 is supported by the organizations below."
+lead: "COTS 2027 is supported by the organizations below."
 permalink: /sponsors/
 ---
 

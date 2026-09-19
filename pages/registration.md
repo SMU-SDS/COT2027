@@ -34,9 +34,4 @@ The registration link will be posted here.
 
 ## Submit a poster
 
-<!-- Replace the text below with the submission link when it is ready:
-     [Submit a poster abstract](https://example.com/abstract-form)
--->
-
-The poster abstract form will be posted here. Abstracts are limited to a short
-summary of the work and are reviewed by the organizing committee.
+The poster submission form will be posted here.

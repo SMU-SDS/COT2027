@@ -42,20 +42,20 @@ p,ul,ol{margin:0 0 1rem}
 .hero{
   position:relative;color:#fff;padding:5rem 0 4.5rem;text-align:center;
   background:
-    linear-gradient(180deg,rgba(23,34,74,.82) 0%,rgba(34,51,109,.62) 55%,rgba(34,51,109,.88) 100%),
+    linear-gradient(180deg,rgba(17,26,60,.86) 0%,rgba(34,51,109,.70) 55%,rgba(23,34,74,.92) 100%),
     url("../img/campus.svg") center 25%/cover no-repeat,
     var(--smu-blue-dark);
 }
 .hero h1,.hero .kicker,.hero .hero-meta{text-shadow:0 1px 10px rgba(12,20,50,.45)}
 .hero h1{font-size:2.6rem;margin-bottom:.4rem}
 .kicker{text-transform:uppercase;letter-spacing:.14em;font-size:.8rem;color:#c3cdeb;margin-bottom:.6rem}
-.hero-meta{font-size:1.05rem;color:#e6eaf7}
+.hero-meta{font-size:1.45rem;font-weight:600;color:#fff;margin:.5rem 0 1rem;letter-spacing:.01em}
 .button{display:inline-block;background:var(--smu-red);color:#fff;padding:.6rem 1.4rem;border-radius:4px;font-weight:600;margin-top:.8rem}
 .button:hover{background:#a80029;text-decoration:none}
 .pagehead{
   color:#fff;border-bottom:4px solid var(--smu-red);padding:2.6rem 0 2.1rem;
   background:
-    linear-gradient(180deg,rgba(23,34,74,.86) 0%,rgba(34,51,109,.78) 100%),
+    linear-gradient(180deg,rgba(17,26,60,.88) 0%,rgba(34,51,109,.80) 100%),
     url("../img/campus.svg") center 30%/cover no-repeat,
     var(--smu-blue-dark);
 }
@@ -82,7 +82,9 @@ td:first-child{white-space:nowrap;color:var(--muted)}
 
 /* Footer */
 .footer{background:var(--bg-soft);border-top:1px solid var(--line);margin-top:3rem;padding:2rem 0;color:var(--muted);font-size:.92rem}
-.footer-band{height:130px;background:url("../img/campus.svg") center 40%/cover no-repeat;opacity:.9}
+.footer-band{height:130px;background:url("../img/campus.jpg") center 55%/cover no-repeat}
+.footer-inner{display:flex;align-items:center;gap:1.6rem;flex-wrap:wrap}
+.footer-logo{width:260px;max-width:100%;height:auto}
 
 @media (max-width:760px){
   .topbar-inner{padding-top:.6rem;padding-bottom:.6rem}
@@ -96,4 +98,5 @@ td:first-child{white-space:nowrap;color:var(--muted)}
   .nav-toggle-label span::after{position:absolute;top:7px}
   .nav-toggle:checked ~ .nav{max-height:24rem}
   .hero h1{font-size:2rem}
+  .hero-meta{font-size:1.15rem}
 }

@@ -1,4 +1,4 @@
-# CoTS 2027 website
+# COTS 2027 website
 
 Source for <https://smu-sds.github.io/cots2027/>, the site for the Conference of
 Texas Statisticians hosted by SMU.

@@ -5,10 +5,10 @@ lead: "The schedule below is preliminary and subject to change."
 permalink: /program/
 ---
 
-The conference runs from Friday midday through Saturday noon. Talks are given in
+The conference runs from Friday midday, April 2, through Saturday noon, April 3. Talks are given in
 parallel sessions, with two or three rooms running at once.
 
-## Friday
+## Friday, April 2
 
 <div class="table-scroll" markdown="1">
 
@@ -24,7 +24,7 @@ parallel sessions, with two or three rooms running at once.
 
 </div>
 
-## Saturday
+## Saturday, April 3
 
 <div class="table-scroll" markdown="1">
 
@@ -40,11 +40,11 @@ parallel sessions, with two or three rooms running at once.
 
 ## Sessions
 
-Talks are by invitation. Each room hosts a short sequence of talks with time for
-questions. Faculty, postdocs, and students are all welcome as speakers.
+Each room hosts a short sequence of talks with time for questions. Faculty,
+postdocs, and students are all welcome as speakers.
 
 A detailed program with session titles, speakers, and room assignments will be
-posted before the conference.
+posted once it is finalized, likely in December.
 
 ## Posters
 

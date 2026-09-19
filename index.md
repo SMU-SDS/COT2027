@@ -8,42 +8,31 @@ cta_text: "Registration opens soon"
 permalink: /
 ---
 
-The Conference of Texas Statisticians (CoTS) brings together statisticians and
-data scientists from across Texas for two days of talks, posters, and
+The Conference of Texas Statisticians (COTS) brings together statisticians and
+data scientists from across Texas for two days of talks, posters and
 conversation. The 2027 meeting is hosted by the Department of Statistics and
-Data Science at Southern Methodist University in Dallas.
+Data Science at Southern Methodist University in Dallas on April 2 and 3.
 
-<div class="cards">
-  <div class="card">
-    <h3>Dates</h3>
-    <p>{{ site.dates }}</p>
-  </div>
-  <div class="card">
-    <h3>Location</h3>
-    <p>SMU campus, Dallas, Texas</p>
-  </div>
-  <div class="card">
-    <h3>Format</h3>
-    <p>Invited talks in parallel sessions, a poster session, and a conference dinner</p>
-  </div>
-  <div class="card">
-    <h3>Registration</h3>
-    <p>Opens in December. See the registration page</p>
-  </div>
-</div>
+
+## Welcome
+
+We are delighted to bring COTS back to SMU. The conference was established at the 1980 ASA meeting in
+Houston by Tom Bratcher of Baylor, Jim Davenport of Texas Tech and Bill Schucany of SMU, and the first
+meeting followed in Waco in February 1981. It has been held every year since, rotating among Texas
+institutions. SMU last hosted in 2017, when roughly 140 people came to Dallas, among them 80 students
+from 26 universities, institutions and companies.
+
+The meeting features invited talks from statisticians working in academia, industry and government,
+along with a poster session where students and early-career researchers present their work. The Don
+Owen Award, presented at the conference dinner, carries its own SMU connection, since Don Owen taught
+in the department for decades and trained many of its doctoral students.
+
+We look forward to welcoming you to campus on April 2 and 3, 2027.
 
 <div class="notice">
   <p>The program, registration link, and poster submission link are being
   finalized. Check back for updates.</p>
 </div>
-
-## About the conference
-
-CoTS has met annually since 1980 and rotates among Texas universities. The
-meeting features invited talks from statisticians working in academia,
-industry, and government, along with a poster session that gives students and
-early-career researchers a chance to present their work. The Don Owen Award is
-presented at the conference dinner.
 
 ## Key dates
 
@@ -53,7 +42,7 @@ presented at the conference dinner.
 | Early registration deadline | February 2027 |
 | Poster abstract deadline | March 2027 |
 | Registration closes | March 2027 |
-| Conference | {{ site.dates }} |
+| Conference | Friday and Saturday, April 2–3, 2027 |
 
 ## Contact
 

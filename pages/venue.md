@@ -7,7 +7,7 @@ permalink: /venue/
 
 ## Venue
 
-CoTS 2027 takes place on the campus of Southern Methodist University in Dallas.
+COTS 2027 takes place on the campus of Southern Methodist University in Dallas.
 Session rooms, the poster venue, and the dinner location will be listed here once
 they are confirmed.
 
@@ -38,6 +38,10 @@ posted here.
 
 ## Things to do
 
-The Meadows Museum sits on the SMU campus and holds one of the largest
-collections of Spanish art outside Spain. The George W. Bush Presidential Center
-is also on campus, and NorthPark Center is a short drive away.
+- **Meadows Museum**, on campus, holds one of the largest collections of Spanish art outside Spain.
+- **George W. Bush Presidential Center**, also on campus, with a museum and public gardens.
+- **Snider Plaza and Mockingbird Station**, both walkable from campus, for coffee and casual meals.
+- **Katy Trail**, a converted rail line for running or walking, a short drive south of campus.
+- **NorthPark Center**, ten minutes away, known for its sculpture collection as much as its shops.
+- **Dallas Arts District**, downtown, home to the Dallas Museum of Art, the Nasher Sculpture Center and the Meyerson Symphony Center.
+- **Deep Ellum and Bishop Arts District**, for live music, murals and restaurants in the evening.
