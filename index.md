@@ -16,10 +16,10 @@ Data Science at Southern Methodist University in Dallas on April 2 and 3.
 
 ## Welcome
 
-We are delighted to bring COTS back to SMU. The conference was established at the 1980 ASA meeting in
-Houston by Tom Bratcher of Baylor, Jim Davenport of Texas Tech and Bill Schucany of SMU, and the first
-meeting followed in Waco in February 1981. It has been held every year since, rotating among Texas
-institutions. SMU last hosted in 2017, when roughly 140 people came to Dallas, among them 80 students
+We are delighted to bring COTS back to SMU. Tom Bratcher of Baylor, Jim Davenport of Texas Tech and
+Bill Schucany of SMU agreed to create a statewide statistics meeting while attending the 1980 American
+Statistical Association meeting in Houston. COTS itself first convened in Waco in February 1981 and has
+met every year since, rotating among Texas institutions. SMU last hosted in 2017, when roughly 140 people came to Dallas, among them 80 students
 from 26 universities, institutions and companies.
 
 The meeting features invited talks from statisticians working in academia, industry and government,
