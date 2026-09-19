@@ -2,7 +2,7 @@ title: "COTS 2027"
 subtitle: "46th Conference of Texas Statisticians"
 description: "The Conference of Texas Statisticians (COTS) 2027, hosted by the Department of Statistics and Data Science at Southern Methodist University."
 url: "https://smu-sds.github.io"
-baseurl: "/cots2027"   # repo name; use "" if the repo is named smu-sds.github.io
+baseurl: "/COTS2027"   # repo name; use "" if the repo is named smu-sds.github.io
 
 institution: "Southern Methodist University"
 venue: "Dallas, Texas"
