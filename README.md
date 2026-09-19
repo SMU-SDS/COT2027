@@ -1,6 +1,6 @@
 # COTS 2027 website
 
-Source for <https://smu-sds.github.io/cots2027/>, the site for the Conference of
+Source for <https://smu-sds.github.io/COTS2027/>, the site for the Conference of
 Texas Statisticians hosted by SMU.
 
 Built with Jekyll, which GitHub Pages compiles automatically on every push. No
@@ -59,9 +59,6 @@ source ~/.bashrc
 gem install jekyll bundler
 ```
 
-On macOS, `brew install ruby` replaces the two `apt` lines, and the rest is the
-same.
-
 Then, from this folder:
 
 ```
@@ -76,9 +73,9 @@ serve line.
 
 Notes:
 
-- `--baseurl ""` overrides the deployed `/cots2027` path so the local site sits
+- `--baseurl ""` overrides the deployed `/COTS2027` path so the local site sits
   at the root. Without it, the preview lives at
-  <http://localhost:4000/cots2027/>.
+  <http://localhost:4000/COTS2027/>.
 - Markdown pages and the stylesheet rebuild on save, and `--livereload`
   refreshes the browser.
 - Changes to `_config.yml` need a restart with Ctrl+C and the same serve command.
@@ -89,25 +86,3 @@ Notes:
   `--livereload-port 35730`.
 - Do not name a setting `host` in `_config.yml`. Jekyll reserves it for the
   server address, and the site name goes in `institution` instead.
-
-## Publishing
-
-1. Create a public repository named `cots2027` in the SMU-SDS organization and
-   push this folder to the `main` branch.
-2. In the repository, go to Settings, then Pages.
-3. Under Build and deployment, set Source to "Deploy from a branch", branch
-   `main`, folder `/ (root)`.
-4. The site appears at <https://smu-sds.github.io/cots2027/> within a minute or
-   two.
-
-`baseurl` in `_config.yml` must match the repository name. It is set to
-`/cots2027`. If the site later moves to a repository named
-`smu-sds.github.io`, set `baseurl: ""` instead.
-
-## Custom domain
-
-If SMU provides a subdomain later, add it under Settings, then Pages, then
-Custom domain. GitHub writes a `CNAME` file to the repository, SMU IT adds a DNS
-CNAME record pointing to `smu-sds.github.io`, and GitHub issues a certificate
-once the record resolves. Then set `url:` to the new address and `baseurl: ""`
-in `_config.yml`, since a custom domain serves the site at the root.
